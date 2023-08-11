@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-tarjeta',
@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarjetaComponent{
 
-  public image:string="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJJ9H6Rft6C1hlcJRFU96tl3sz9MXxYJKcQg&usqp=CAU";
-  public Titulo:string="Curso Angular con interpolacion";
+  @Input() dataEntrante:any;
+  
   constructor(){}
 
 }
