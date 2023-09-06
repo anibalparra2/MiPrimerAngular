@@ -4,16 +4,16 @@
     border-bottom: solid 1px #1f1f1f;
 }
 .menu {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    list-style: none;
+    margin: 0px; /*margen arriba y abajo*/
+    padding: 0px; /*relleno en todos los bordes*/
+    display: flex; /*coloca los items horizontales*/
+    list-style: none; /*quita vinetas*/
     align-items: center;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-between; /*coloca espacios*/
 }
 .logo{
-    height: 2rem;
+    height: 2rem; /*el tamanio del objeto es 2 veces el tamanio de la fuente*/
 }
 .menu li{
     font-weight: 600;

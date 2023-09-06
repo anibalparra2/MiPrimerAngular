@@ -16,7 +16,7 @@ export class AppComponent implements OnInit{
   title = 'MiPrimerApp';
   public ArregloTarjetas: Tarjeta[]=[];
 
-  ngOnInit(): void {
+  ngOnInit(): void { //este metodo es implementado
     this.ArregloTarjetas = [
       {titulo:'Video 1', subtitulo: 'Subtitulo Video 1', image:"https://www.sexadodeaves.com/vlog/wp-content/uploads/2019/06/chipe-azul-@urugwild.jpg"},
       {titulo:'Video 2', subtitulo: 'Subtitulo Video 2', image:"https://www.sexadodeaves.com/vlog/wp-content/uploads/2019/06/platanero.jpg"},

@@ -7,7 +7,7 @@ import { Component, OnInit, Input} from '@angular/core';
 })
 export class TarjetaComponent{
 
-  @Input() dataEntrante:any;
+  @Input() dataEntrante:any; //recibe los datos de app.component.ts
   
   constructor(){}
 
